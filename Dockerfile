@@ -2,7 +2,7 @@ FROM alpine:3.19.1
 
 LABEL maintainer="Stacklegend"
 LABEL version="3.19.1"
-LABEL description="Dockerfile to setup a simple iperf3 server based on Alpine"
+LABEL description="Simple iperf3 server based on Alpine"
 
 # install iperf3 and create non-root user
 RUN apk add --no-cache iperf3 \
